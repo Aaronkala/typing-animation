@@ -27,15 +27,15 @@ function randomTime(){
   return rand;
 }
 
-
+var infocounter = 0;
 function information(){
-    if (counter == 0){
+    if (infocounter == 0){
         document.querySelector("#infoButton").className = "fa fa-times-circle fa-2x";
         document.querySelector(".informationBox").style.height = "110px";
-        counter = 1;
-    } else if (counter == 1) {
+        infocounter = 1;
+    } else if (infocounter == 1) {
         document.querySelector("#infoButton").className = "fa fa-info-circle fa-2x";
         document.querySelector(".informationBox").style.height = "0px";
-        counter = 0;
+        infocounter = 0;
     }
 }
