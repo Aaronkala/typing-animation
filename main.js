@@ -26,3 +26,16 @@ function randomTime(){
   var rand = Math.round(Math.random() * (120)) + 30;
   return rand;
 }
+
+
+function information(){
+    if (counter == 0){
+        document.querySelector("#infoButton").className = "fa fa-times-circle fa-2x";
+        document.querySelector(".informationBox").style.height = "110px";
+        counter = 1;
+    } else if (counter == 1) {
+        document.querySelector("#infoButton").className = "fa fa-info-circle fa-2x";
+        document.querySelector(".informationBox").style.height = "0px";
+        counter = 0;
+    }
+}
