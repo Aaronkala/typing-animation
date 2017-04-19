@@ -1,5 +1,5 @@
 var counter = 0;
-var script = ["Copy, art, and typography."]
+var script = ["Simple, beautiful typing animation."];
 var textToAnim = document.getElementById("animate");
 var text = script[0];
 var displayText = "";
