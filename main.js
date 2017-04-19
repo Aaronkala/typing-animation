@@ -23,7 +23,7 @@ function animateText(){
 }
 
 function randomTime(){
-  var rand = Math.round(Math.random() * (120)) + 30;
+  var rand = Math.round(Math.random() * (80)) + 20;
   return rand;
 }
 
